@@ -5,5 +5,8 @@ Escrever("Introduza o primeiro número")
 Ler(num1)
 Escrever("Introduza o segundo número")
 Ler(num2)
-Escrever(num1+num2)
+se (num1>num2)
+Escrever(num1-num2)
+senão
+Escrever(num2-num1)
 Fim
